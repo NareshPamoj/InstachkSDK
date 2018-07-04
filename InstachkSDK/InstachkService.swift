@@ -16,7 +16,7 @@ class InstachkService : NSObject {
     let WS_SERVER_ENDPOINT = "ws://prod.instachk.today"
     let HTTP_SERVER_ENDPOINT = "http://prod.instachk.today/api/v1/users/"
     
-    var socket : WebSocketClient
+    var socket : WebSocket!
     var apiKey : String!
     var partnerKey : String
     var lastLocation : CLLocation?
@@ -153,18 +153,13 @@ class InstachkService : NSObject {
     }
     
     private func connectWebSocket() {
-        let requestURL = URL(string: self.HTTP_SERVER_ENDPOINT + "activate-coupon")!
-        var urlRequest = URLRequest(url: requestURL)
-        urlRequest.httpMethod = "POST"
+        var urlRequest = URLRequest(url: URL(string: self.WS_SERVER_ENDPOINT + "/cable" )!)
         urlRequest.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
-        
-        // adding package name
         urlRequest.setValue(Bundle.main.bundleIdentifier!, forHTTPHeaderField: "Package-Name")
-        
-        // adding api key
         urlRequest.setValue("Token api_key=\(self.apiKey ?? "null")::\(self.partnerKey)", forHTTPHeaderField: "Authorization")
         
         self.socket = WebSocket(request: urlRequest)
+        self.socket.delegate = self
         self.socket.connect()
     }
     
