@@ -45,7 +45,7 @@ public class Deals: NSObject {
         collectionView.backgroundColor = UIColor.white
         container.addSubview(collectionView)
       //  collectionView.register(DealsCollectionViewCell.self, forCellWithReuseIdentifier: MyCollectionViewCellId)
-        collectionView.register(UINib(nibName: "DealsCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: MyCollectionViewCellId)
+        collectionView.register(UINib(nibName: "DealCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: MyCollectionViewCellId)
     }
     
     /**
@@ -109,7 +109,7 @@ extension Deals : UICollectionViewDataSource,UICollectionViewDelegate,UICollecti
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell  {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MyCollectionViewCellId, for: indexPath) as! DealsCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MyCollectionViewCellId, for: indexPath) as! DealCollectionViewCell
         
         dealsDictionary = deals[indexPath.row]
         cell.lblNameDeal?.text = dealsDictionary["title"] as? String
@@ -122,7 +122,7 @@ extension Deals : UICollectionViewDataSource,UICollectionViewDelegate,UICollecti
     
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        let cell = collectionView.cellForItem(at: indexPath)! as! DealsCollectionViewCell
+        let cell = collectionView.cellForItem(at: indexPath)! as! DealCollectionViewCell
         let vc = DealDetailsViewController(nibName: "DealDetailsViewController", bundle: Bundle.init(for: DealDetailsViewController.self))
                 
         dealsDictionary = deals[indexPath.row]

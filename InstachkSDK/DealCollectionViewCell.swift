@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DealsCollectionViewCell: UICollectionViewCell {
+class DealCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet  var viewDeals: UIView!
     @IBOutlet  var imageViewDeal: UIImageView!

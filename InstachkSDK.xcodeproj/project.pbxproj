@@ -13,12 +13,12 @@
 		85FBD68C20EC80DE00731C29 /* DealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68020EC80DD00731C29 /* DealDetailsViewController.swift */; };
 		85FBD68D20EC80DE00731C29 /* AdDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68120EC80DD00731C29 /* AdDialogViewController.swift */; };
 		85FBD68E20EC80DE00731C29 /* AdDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FBD68220EC80DD00731C29 /* AdDialogViewController.xib */; };
-		85FBD68F20EC80DE00731C29 /* DealsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68320EC80DD00731C29 /* DealsCollectionViewCell.swift */; };
+		85FBD68F20EC80DE00731C29 /* DealCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68320EC80DD00731C29 /* DealCollectionViewCell.swift */; };
 		85FBD69020EC80DE00731C29 /* Advertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68420EC80DD00731C29 /* Advertisement.swift */; };
 		85FBD69120EC80DE00731C29 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68520EC80DD00731C29 /* Extensions.swift */; };
 		85FBD69220EC80DE00731C29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FBD68620EC80DD00731C29 /* Images.xcassets */; };
 		85FBD69320EC80DE00731C29 /* DealDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FBD68720EC80DD00731C29 /* DealDetailsViewController.xib */; };
-		85FBD69420EC80DE00731C29 /* DealsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FBD68820EC80DD00731C29 /* DealsCollectionViewCell.xib */; };
+		85FBD69420EC80DE00731C29 /* DealCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FBD68820EC80DD00731C29 /* DealCollectionViewCell.xib */; };
 		85FBD69520EC80DE00731C29 /* MessageListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68920EC80DD00731C29 /* MessageListener.swift */; };
 		85FBD69620EC80DE00731C29 /* Deals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68A20EC80DD00731C29 /* Deals.swift */; };
 		85FBD69720EC80DE00731C29 /* InstachkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68B20EC80DE00731C29 /* InstachkService.swift */; };
@@ -50,12 +50,12 @@
 		85FBD68020EC80DD00731C29 /* DealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealDetailsViewController.swift; sourceTree = "<group>"; };
 		85FBD68120EC80DD00731C29 /* AdDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDialogViewController.swift; sourceTree = "<group>"; };
 		85FBD68220EC80DD00731C29 /* AdDialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdDialogViewController.xib; sourceTree = "<group>"; };
-		85FBD68320EC80DD00731C29 /* DealsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsCollectionViewCell.swift; sourceTree = "<group>"; };
+		85FBD68320EC80DD00731C29 /* DealCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealCollectionViewCell.swift; sourceTree = "<group>"; };
 		85FBD68420EC80DD00731C29 /* Advertisement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Advertisement.swift; sourceTree = "<group>"; };
 		85FBD68520EC80DD00731C29 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		85FBD68620EC80DD00731C29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		85FBD68720EC80DD00731C29 /* DealDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealDetailsViewController.xib; sourceTree = "<group>"; };
-		85FBD68820EC80DD00731C29 /* DealsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealsCollectionViewCell.xib; sourceTree = "<group>"; };
+		85FBD68820EC80DD00731C29 /* DealCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealCollectionViewCell.xib; sourceTree = "<group>"; };
 		85FBD68920EC80DD00731C29 /* MessageListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageListener.swift; sourceTree = "<group>"; };
 		85FBD68A20EC80DD00731C29 /* Deals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deals.swift; sourceTree = "<group>"; };
 		85FBD68B20EC80DE00731C29 /* InstachkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstachkService.swift; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 				85FBD68020EC80DD00731C29 /* DealDetailsViewController.swift */,
 				85FBD68720EC80DD00731C29 /* DealDetailsViewController.xib */,
 				85FBD68A20EC80DD00731C29 /* Deals.swift */,
-				85FBD68320EC80DD00731C29 /* DealsCollectionViewCell.swift */,
-				85FBD68820EC80DD00731C29 /* DealsCollectionViewCell.xib */,
+				85FBD68320EC80DD00731C29 /* DealCollectionViewCell.swift */,
+				85FBD68820EC80DD00731C29 /* DealCollectionViewCell.xib */,
 				85FBD68520EC80DD00731C29 /* Extensions.swift */,
 				85FBD68B20EC80DE00731C29 /* InstachkService.swift */,
 				85FBD68920EC80DD00731C29 /* MessageListener.swift */,
@@ -249,7 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85FBD69420EC80DE00731C29 /* DealsCollectionViewCell.xib in Resources */,
+				85FBD69420EC80DE00731C29 /* DealCollectionViewCell.xib in Resources */,
 				85FBD68E20EC80DE00731C29 /* AdDialogViewController.xib in Resources */,
 				85FBD69320EC80DE00731C29 /* DealDetailsViewController.xib in Resources */,
 				85FBD69220EC80DE00731C29 /* Images.xcassets in Resources */,
@@ -335,7 +335,7 @@
 				85FBD69520EC80DE00731C29 /* MessageListener.swift in Sources */,
 				85FBD68C20EC80DE00731C29 /* DealDetailsViewController.swift in Sources */,
 				85FBD69020EC80DE00731C29 /* Advertisement.swift in Sources */,
-				85FBD68F20EC80DE00731C29 /* DealsCollectionViewCell.swift in Sources */,
+				85FBD68F20EC80DE00731C29 /* DealCollectionViewCell.swift in Sources */,
 				85FBD69620EC80DE00731C29 /* Deals.swift in Sources */,
 				85FBD69720EC80DE00731C29 /* InstachkService.swift in Sources */,
 				85FBD68D20EC80DE00731C29 /* AdDialogViewController.swift in Sources */,
@@ -496,7 +496,11 @@
 				INFOPLIST_FILE = InstachkSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = today.Instachk.InstachkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -521,7 +525,11 @@
 				INFOPLIST_FILE = InstachkSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = today.Instachk.InstachkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -538,7 +546,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56F3QE4AP2;
 				INFOPLIST_FILE = InstachkSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = today.Instachk.InstachkSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -554,7 +566,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56F3QE4AP2;
 				INFOPLIST_FILE = InstachkSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = today.Instachk.InstachkSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
