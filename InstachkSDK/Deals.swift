@@ -44,7 +44,8 @@ public class Deals: NSObject {
         collectionView.alwaysBounceVertical = true
         collectionView.backgroundColor = UIColor.white
         container.addSubview(collectionView)
-        collectionView.register(DealsCollectionViewCell.self, forCellWithReuseIdentifier: MyCollectionViewCellId)
+      //  collectionView.register(DealsCollectionViewCell.self, forCellWithReuseIdentifier: MyCollectionViewCellId)
+        collectionView.register(UINib(nibName: "DealsCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: MyCollectionViewCellId)
     }
     
     /**
@@ -100,7 +101,7 @@ extension Deals : MessageListener {
     }
 }
 
-extension Deals : UICollectionViewDataSource,UICollectionViewDelegate {
+extension Deals : UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout {
     
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return deals.count
@@ -138,13 +139,19 @@ extension Deals : UICollectionViewDataSource,UICollectionViewDelegate {
         self.container.parentViewController?.showDetailViewController(vc, sender: nil)
     }
     
-    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForItemAt section: Int) -> CGFloat {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 10
     }
     
-    public func collectionView(_ collectionView: UICollectionView,
-                               layout collectionViewLayout: UICollectionViewLayout,
-                               insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets.init(top: 8, left: 8, bottom: 70, right: 8)
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let padding: CGFloat =  50
+        let collectionViewSize = collectionView.frame.size.width - padding
+        return CGSize(width: collectionViewSize/2, height: collectionViewSize/2)
     }
+    
+//    public func collectionView(_ collectionView: UICollectionView,
+//                               layout collectionViewLayout: UICollectionViewLayout,
+//                               insetForSectionAt section: Int) -> UIEdgeInsets {
+//        return UIEdgeInsets.init(top: 8, left: 8, bottom: 70, right: 8)
+//    }
 }
