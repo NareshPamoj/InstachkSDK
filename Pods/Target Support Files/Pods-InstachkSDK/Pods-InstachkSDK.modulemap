@@ -1,0 +1,6 @@
+framework module Pods_InstachkSDK {
+  umbrella header "Pods-InstachkSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

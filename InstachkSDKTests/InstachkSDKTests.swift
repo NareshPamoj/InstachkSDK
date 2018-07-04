@@ -2,8 +2,8 @@
 //  InstachkSDKTests.swift
 //  InstachkSDKTests
 //
-//  Created by Amit Chatterjee on 4/7/18.
-//  Copyright © 2018 Amit Chatterjee. All rights reserved.
+//  Created by Naresh on 4/5/18.
+//  Copyright © 2018 Instachk. All rights reserved.
 //
 
 import XCTest
@@ -32,5 +32,4 @@ class InstachkSDKTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }

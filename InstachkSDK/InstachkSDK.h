@@ -2,8 +2,8 @@
 //  InstachkSDK.h
 //  InstachkSDK
 //
-//  Created by Amit Chatterjee on 4/7/18.
-//  Copyright © 2018 Amit Chatterjee. All rights reserved.
+//  Created by Naresh on 4/5/18.
+//  Copyright © 2018 Instachk. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="dealscell" id="gTV-IL-0wX" customClass="DealsCollectionViewCell" customModule="InstachkOffers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="255"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="155" height="255"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6Y-GB-PYF">
+                        <rect key="frame" x="0.0" y="0.0" width="155" height="255"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_capitastar.png" translatesAutoresizingMaskIntoConstraints="NO" id="E8M-6R-hwj">
+                                <rect key="frame" x="0.0" y="0.0" width="155" height="176"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="155" id="I5j-mY-NTV"/>
+                                    <constraint firstAttribute="height" constant="176" id="er8-NU-DxP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Croissant free with cold coffee" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPV-KW-haM">
+                                <rect key="frame" x="10" y="184" width="135" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="LmO-ls-dBr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="0.79625963180000003" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="313@Somerset,27th Main" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akG-MR-Mzu">
+                                <rect key="frame" x="10" y="223" width="135" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E8M-6R-hwj" firstAttribute="leading" secondItem="b6Y-GB-PYF" secondAttribute="leading" id="0Pm-A7-c3i"/>
+                            <constraint firstItem="E8M-6R-hwj" firstAttribute="top" secondItem="b6Y-GB-PYF" secondAttribute="top" id="AF1-3g-uPx"/>
+                            <constraint firstAttribute="trailing" secondItem="uPV-KW-haM" secondAttribute="trailing" constant="10" id="DJs-qE-etq"/>
+                            <constraint firstItem="uPV-KW-haM" firstAttribute="top" secondItem="E8M-6R-hwj" secondAttribute="bottom" constant="8" id="Pds-Vx-ZuI"/>
+                            <constraint firstItem="uPV-KW-haM" firstAttribute="leading" secondItem="b6Y-GB-PYF" secondAttribute="leading" constant="10" id="T5U-Pu-SMp"/>
+                            <constraint firstItem="akG-MR-Mzu" firstAttribute="top" secondItem="uPV-KW-haM" secondAttribute="bottom" constant="5" id="XvO-Ge-Wo4"/>
+                            <constraint firstAttribute="trailing" secondItem="akG-MR-Mzu" secondAttribute="trailing" constant="10" id="on3-ar-wMt"/>
+                            <constraint firstItem="akG-MR-Mzu" firstAttribute="leading" secondItem="b6Y-GB-PYF" secondAttribute="leading" constant="10" id="q4c-tj-uNz"/>
+                            <constraint firstAttribute="width" constant="155" id="qgb-aG-YbB"/>
+                            <constraint firstAttribute="height" constant="255" id="rbz-Ps-cbh"/>
+                            <constraint firstAttribute="trailing" secondItem="E8M-6R-hwj" secondAttribute="trailing" id="xUr-mA-Ctg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="b6Y-GB-PYF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ABx-jm-qab"/>
+                <constraint firstAttribute="bottom" secondItem="b6Y-GB-PYF" secondAttribute="bottom" id="WEk-vd-c5d"/>
+                <constraint firstAttribute="trailing" secondItem="b6Y-GB-PYF" secondAttribute="trailing" id="qyC-hb-7j2"/>
+                <constraint firstItem="b6Y-GB-PYF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zXP-GD-UYx"/>
+            </constraints>
+            <size key="customSize" width="155" height="255"/>
+            <connections>
+                <outlet property="imageViewDeal" destination="E8M-6R-hwj" id="9e5-nL-Q2a"/>
+                <outlet property="lblDealDescription" destination="akG-MR-Mzu" id="Ctj-aE-fbi"/>
+                <outlet property="lblNameDeal" destination="uPV-KW-haM" id="8CN-bc-Emp"/>
+                <outlet property="viewDeals" destination="b6Y-GB-PYF" id="W4E-q0-USl"/>
+            </connections>
+            <point key="canvasLocation" x="57.5" y="130.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bg_capitastar.png" width="1080" height="1863"/>
+    </resources>
+</document>

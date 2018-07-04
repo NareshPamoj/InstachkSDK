@@ -10,6 +10,20 @@
 		85FBD67020EC7E9200731C29 /* InstachkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FBD66620EC7E9100731C29 /* InstachkSDK.framework */; };
 		85FBD67520EC7E9200731C29 /* InstachkSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD67420EC7E9200731C29 /* InstachkSDKTests.swift */; };
 		85FBD67720EC7E9200731C29 /* InstachkSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FBD66920EC7E9100731C29 /* InstachkSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FBD68C20EC80DE00731C29 /* DealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68020EC80DD00731C29 /* DealDetailsViewController.swift */; };
+		85FBD68D20EC80DE00731C29 /* AdDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68120EC80DD00731C29 /* AdDialogViewController.swift */; };
+		85FBD68E20EC80DE00731C29 /* AdDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FBD68220EC80DD00731C29 /* AdDialogViewController.xib */; };
+		85FBD68F20EC80DE00731C29 /* DealsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68320EC80DD00731C29 /* DealsCollectionViewCell.swift */; };
+		85FBD69020EC80DE00731C29 /* Advertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68420EC80DD00731C29 /* Advertisement.swift */; };
+		85FBD69120EC80DE00731C29 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68520EC80DD00731C29 /* Extensions.swift */; };
+		85FBD69220EC80DE00731C29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FBD68620EC80DD00731C29 /* Images.xcassets */; };
+		85FBD69320EC80DE00731C29 /* DealDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FBD68720EC80DD00731C29 /* DealDetailsViewController.xib */; };
+		85FBD69420EC80DE00731C29 /* DealsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FBD68820EC80DD00731C29 /* DealsCollectionViewCell.xib */; };
+		85FBD69520EC80DE00731C29 /* MessageListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68920EC80DD00731C29 /* MessageListener.swift */; };
+		85FBD69620EC80DE00731C29 /* Deals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68A20EC80DD00731C29 /* Deals.swift */; };
+		85FBD69720EC80DE00731C29 /* InstachkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FBD68B20EC80DE00731C29 /* InstachkService.swift */; };
+		9C3DB82FA65CEDB18DE982A3 /* Pods_InstachkSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6DCF006E681CCCD55324D0 /* Pods_InstachkSDKTests.framework */; };
+		9D1EBB32791C910F51722674 /* Pods_InstachkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A45923B1852A06B561FF18 /* Pods_InstachkSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +37,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D6DCF006E681CCCD55324D0 /* Pods_InstachkSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstachkSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3613D15EE23FA50981024B1A /* Pods-InstachkSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstachkSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstachkSDK/Pods-InstachkSDK.release.xcconfig"; sourceTree = "<group>"; };
+		41EF2DE4F07E05C2B9E755D0 /* Pods-InstachkSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstachkSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstachkSDKTests/Pods-InstachkSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67E7C4345F971CBED75CB6CA /* Pods-InstachkSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstachkSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstachkSDKTests/Pods-InstachkSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		85FBD66620EC7E9100731C29 /* InstachkSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstachkSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FBD66920EC7E9100731C29 /* InstachkSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstachkSDK.h; sourceTree = "<group>"; };
 		85FBD66A20EC7E9100731C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85FBD66F20EC7E9200731C29 /* InstachkSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstachkSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FBD67420EC7E9200731C29 /* InstachkSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstachkSDKTests.swift; sourceTree = "<group>"; };
 		85FBD67620EC7E9200731C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85FBD68020EC80DD00731C29 /* DealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealDetailsViewController.swift; sourceTree = "<group>"; };
+		85FBD68120EC80DD00731C29 /* AdDialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDialogViewController.swift; sourceTree = "<group>"; };
+		85FBD68220EC80DD00731C29 /* AdDialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdDialogViewController.xib; sourceTree = "<group>"; };
+		85FBD68320EC80DD00731C29 /* DealsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsCollectionViewCell.swift; sourceTree = "<group>"; };
+		85FBD68420EC80DD00731C29 /* Advertisement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Advertisement.swift; sourceTree = "<group>"; };
+		85FBD68520EC80DD00731C29 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		85FBD68620EC80DD00731C29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85FBD68720EC80DD00731C29 /* DealDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealDetailsViewController.xib; sourceTree = "<group>"; };
+		85FBD68820EC80DD00731C29 /* DealsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DealsCollectionViewCell.xib; sourceTree = "<group>"; };
+		85FBD68920EC80DD00731C29 /* MessageListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageListener.swift; sourceTree = "<group>"; };
+		85FBD68A20EC80DD00731C29 /* Deals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deals.swift; sourceTree = "<group>"; };
+		85FBD68B20EC80DE00731C29 /* InstachkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstachkService.swift; sourceTree = "<group>"; };
+		A575BAF33304E46DFC1D9A34 /* Pods-InstachkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstachkSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstachkSDK/Pods-InstachkSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		E2A45923B1852A06B561FF18 /* Pods_InstachkSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstachkSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1EBB32791C910F51722674 /* Pods_InstachkSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +77,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				85FBD67020EC7E9200731C29 /* InstachkSDK.framework in Frameworks */,
+				9C3DB82FA65CEDB18DE982A3 /* Pods_InstachkSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BEA66C565FA8AA8B41CDCA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A45923B1852A06B561FF18 /* Pods_InstachkSDK.framework */,
+				1D6DCF006E681CCCD55324D0 /* Pods_InstachkSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80C364CBAA760A93611C7671 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A575BAF33304E46DFC1D9A34 /* Pods-InstachkSDK.debug.xcconfig */,
+				3613D15EE23FA50981024B1A /* Pods-InstachkSDK.release.xcconfig */,
+				41EF2DE4F07E05C2B9E755D0 /* Pods-InstachkSDKTests.debug.xcconfig */,
+				67E7C4345F971CBED75CB6CA /* Pods-InstachkSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		85FBD65C20EC7E9100731C29 = {
 			isa = PBXGroup;
 			children = (
 				85FBD66820EC7E9100731C29 /* InstachkSDK */,
 				85FBD67320EC7E9200731C29 /* InstachkSDKTests */,
 				85FBD66720EC7E9100731C29 /* Products */,
+				80C364CBAA760A93611C7671 /* Pods */,
+				0BEA66C565FA8AA8B41CDCA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +127,20 @@
 		85FBD66820EC7E9100731C29 /* InstachkSDK */ = {
 			isa = PBXGroup;
 			children = (
+				85FBD68120EC80DD00731C29 /* AdDialogViewController.swift */,
+				85FBD68220EC80DD00731C29 /* AdDialogViewController.xib */,
+				85FBD68420EC80DD00731C29 /* Advertisement.swift */,
+				85FBD68020EC80DD00731C29 /* DealDetailsViewController.swift */,
+				85FBD68720EC80DD00731C29 /* DealDetailsViewController.xib */,
+				85FBD68A20EC80DD00731C29 /* Deals.swift */,
+				85FBD68320EC80DD00731C29 /* DealsCollectionViewCell.swift */,
+				85FBD68820EC80DD00731C29 /* DealsCollectionViewCell.xib */,
+				85FBD68520EC80DD00731C29 /* Extensions.swift */,
+				85FBD68B20EC80DE00731C29 /* InstachkService.swift */,
+				85FBD68920EC80DD00731C29 /* MessageListener.swift */,
 				85FBD66920EC7E9100731C29 /* InstachkSDK.h */,
 				85FBD66A20EC7E9100731C29 /* Info.plist */,
+				85FBD68620EC80DD00731C29 /* Images.xcassets */,
 			);
 			path = InstachkSDK;
 			sourceTree = "<group>";
@@ -104,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85FBD67A20EC7E9200731C29 /* Build configuration list for PBXNativeTarget "InstachkSDK" */;
 			buildPhases = (
+				543B0F90306D41E885D8C9F3 /* [CP] Check Pods Manifest.lock */,
 				85FBD66120EC7E9100731C29 /* Sources */,
 				85FBD66220EC7E9100731C29 /* Frameworks */,
 				85FBD66320EC7E9100731C29 /* Headers */,
@@ -122,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85FBD67D20EC7E9200731C29 /* Build configuration list for PBXNativeTarget "InstachkSDKTests" */;
 			buildPhases = (
+				342846EDE112486C3D5C3B95 /* [CP] Check Pods Manifest.lock */,
 				85FBD66B20EC7E9200731C29 /* Sources */,
 				85FBD66C20EC7E9200731C29 /* Frameworks */,
 				85FBD66D20EC7E9200731C29 /* Resources */,
+				D7D71F3712224F3834A3BA7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +219,7 @@
 				TargetAttributes = {
 					85FBD66520EC7E9100731C29 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					85FBD66E20EC7E9200731C29 = {
 						CreatedOnToolsVersion = 9.4;
@@ -177,6 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FBD69420EC80DE00731C29 /* DealsCollectionViewCell.xib in Resources */,
+				85FBD68E20EC80DE00731C29 /* AdDialogViewController.xib in Resources */,
+				85FBD69320EC80DE00731C29 /* DealDetailsViewController.xib in Resources */,
+				85FBD69220EC80DE00731C29 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +265,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		342846EDE112486C3D5C3B95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstachkSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		543B0F90306D41E885D8C9F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstachkSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D71F3712224F3834A3BA7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InstachkSDKTests/Pods-InstachkSDKTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARSLineProgress/ARSLineProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARSLineProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstachkSDKTests/Pods-InstachkSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85FBD66120EC7E9100731C29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FBD69120EC80DE00731C29 /* Extensions.swift in Sources */,
+				85FBD69520EC80DE00731C29 /* MessageListener.swift in Sources */,
+				85FBD68C20EC80DE00731C29 /* DealDetailsViewController.swift in Sources */,
+				85FBD69020EC80DE00731C29 /* Advertisement.swift in Sources */,
+				85FBD68F20EC80DE00731C29 /* DealsCollectionViewCell.swift in Sources */,
+				85FBD69620EC80DE00731C29 /* Deals.swift in Sources */,
+				85FBD69720EC80DE00731C29 /* InstachkService.swift in Sources */,
+				85FBD68D20EC80DE00731C29 /* AdDialogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -338,7 +483,9 @@
 		};
 		85FBD67B20EC7E9200731C29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A575BAF33304E46DFC1D9A34 /* Pods-InstachkSDK.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,22 +495,22 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = InstachkSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = today.Instachk.InstachkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		85FBD67C20EC7E9200731C29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3613D15EE23FA50981024B1A /* Pods-InstachkSDK.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,30 +520,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = InstachkSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = today.Instachk.InstachkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		85FBD67E20EC7E9200731C29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41EF2DE4F07E05C2B9E755D0 /* Pods-InstachkSDKTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56F3QE4AP2;
 				INFOPLIST_FILE = InstachkSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = today.Instachk.InstachkSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -406,15 +548,13 @@
 		};
 		85FBD67F20EC7E9200731C29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E7C4345F971CBED75CB6CA /* Pods-InstachkSDKTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56F3QE4AP2;
 				INFOPLIST_FILE = InstachkSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = today.Instachk.InstachkSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
