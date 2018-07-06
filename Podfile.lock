@@ -1,24 +1,20 @@
 PODS:
-  - ARSLineProgress (2.2.1)
   - Kingfisher (4.8.0)
   - Starscream (3.0.5)
 
 DEPENDENCIES:
-  - ARSLineProgress
   - Kingfisher
   - Starscream
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - ARSLineProgress
     - Kingfisher
     - Starscream
 
 SPEC CHECKSUMS:
-  ARSLineProgress: b344944496913e98d8fe7bab94ea5d488fbf41fb
   Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
   Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
 
-PODFILE CHECKSUM: fbf95105842ec110f61f5d0486657b30fcbc22c1
+PODFILE CHECKSUM: 2856f2dad86ccbce37ddd4188fe79a68eec2c330
 
 COCOAPODS: 1.5.3

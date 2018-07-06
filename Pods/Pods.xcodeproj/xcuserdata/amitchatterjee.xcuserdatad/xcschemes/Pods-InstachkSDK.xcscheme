@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4BF749A33B8E96438927B3CE91127B3"
+               BlueprintIdentifier = "DB11819A6EAEFF336AF7C7DC34B687B6"
                BuildableName = "Pods_InstachkSDK.framework"
                BlueprintName = "Pods-InstachkSDK"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4BF749A33B8E96438927B3CE91127B3"
+            BlueprintIdentifier = "DB11819A6EAEFF336AF7C7DC34B687B6"
             BuildableName = "Pods_InstachkSDK.framework"
             BlueprintName = "Pods-InstachkSDK"
             ReferencedContainer = "container:Pods.xcodeproj">

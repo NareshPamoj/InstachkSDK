@@ -6,7 +6,6 @@ target 'InstachkSDK' do
   use_frameworks!
 
   # Pods for InstachkSDK
-    pod 'ARSLineProgress'
     pod 'Kingfisher'
     pod 'Starscream'
 
